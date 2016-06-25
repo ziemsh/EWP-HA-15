@@ -1,0 +1,36 @@
+{
+  "data" : [
+    [
+      "git clone",
+      "Klonen der Daten vom git repository (zentral) auf lokalem Speicher",
+      "MacBook-Z-Pro-2:EWP-Git-Example Ziemsi$ git clone https://github.com/ziemsh/EWP-HA-15.git"
+    ],
+    [
+      "git add",
+      "geänderten Daten zwischenzuspeichern",
+      "client233-157:EWP-Git-Example Ziemsi$ git add index.html"
+
+    ],
+    [
+      "git commit",
+      "Vollendung des Zwischenspeicherns",
+      "client233-157:EWP-Git-Example Ziemsi$ git commit -m Ducks sucks :)"
+    ],
+    [
+      "git push",
+      "Daten auf zentrales Repository hochladen",
+      "client233-157:EWP-Git-Example Ziemsi$ git push origin master"
+
+    ],
+    [
+      "git pull",
+      "Synchronisation",
+      "client233-157:EWP-Git-Example Ziemsi$ git pull"
+
+
+    ]
+
+
+  ]
+
+}
