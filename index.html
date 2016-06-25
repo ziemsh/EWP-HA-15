@@ -3,10 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>EWP HA 15</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="EWP-HA-15.css"/>
+
+
+
+
 </head>
 <body>
 
 <!-- TODO: Erstellen Sie hier die nötigen Inhalte -->
+
+<h1>Der git- Workflow</h1>
+
+<a id="bild" href="https://github.com/ziemsh" target="_blank"><img src="GitHub-Mark-120px-plus.png" alt="Github" /></a>
+
+<p>In dieser kurzen Darstellung sollen die einzelnen git - Befehle gezeigt werden. </p>
+<p>Dabei handelt es sich um folgende Befehle:</p>
+<ul>
+    <li>git clone</li>
+    <li>git add</li>
+    <li>git commit</li>
+    <li>git push</li>
+    <li>git pull</li>
+
+</ul>
+
+<p><span class="tooltip" title="MacBook-Z-Pro-2:EWP-Git-Example Ziemsi$ git clone https://github.com/ziemsh/EWP-HA-15.git"><strong>git clone</strong></span>
+    ist der Befehl der zum Klonen der Daten vom git repository auf lokalem Speicher benötigt wird. Die Daten können nun lokal geändert werden.</p>
+<span>Um die geänderten Daten zwischenzuspeichern wird der Befehl <span class="tooltip" title="client233-157:EWP-Git-Example Ziemsi$ git add index.html"><strong>git add</strong></span> angewandt, die Zwischenspeicherung wird so vorbereitet und mit
+<span class="tooltip" title="client233-157:EWP-Git-Example Ziemsi$ git commit -m Ducks sucks :)" ><strong>git commit</strong></span> vollzogen.</p>
+<p>Letztendlich sollen die geänderten Daten wieder in das zentrale Repository hochgeladen werden. Mit <span class="tooltip" title="client233-157:EWP-Git-Example Ziemsi$ git push origin master
+Username for 'https://github.com': ziemsh
+Password for 'https://ziemsh@github.com':
+Counting objects: 3, done."><strong>git push</strong></span> wird dies umgesetzt.</p>
+<p>Sollen Daten im zentralen Repository synchronisiert werden, kann dies mit <span class="tooltip" title="client233-157:EWP-Git-Example Ziemsi$ git pull"><strong>git pull</strong></span> erfolgen.</p>
+
+
+   <br/>
+    <br/>
+    <br/>
+
+    <p>In der folgenden Tabelle, die mittels Datatables angefertigt wurde, werden die Befehle noch einmal kurz präsentiert.</p>
+
+
+<table id="giti" class="hover cell-border">
+    <thead>
+    <tr>
+        <th>Befehl</th>
+        <th>Bedeutung</th>
+        <th>Beispiel</th>
+
+    </tr>
+    </thead>
+</table>
+
+
+
+
+
+
+
+
+<script src="jquery-2.2.4.min.js"></script>
+
+
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+
+<script src="EWP-HA-15.js"></script>
+
+
 
 </body>
 </html>
